@@ -24,8 +24,8 @@
                 }
             @endphp
             <div class="relative mt-12">
-                <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-gradient-to-r from-slate-950 via-slate-950/80 to-transparent"></div>
-                <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-gradient-to-l from-slate-950 via-slate-950/80 to-transparent"></div>
+                <div class="pointer-events-none absolute inset-y-0 left-0 z-10 w-24 bg-linear-to-r from-slate-950 via-slate-950/80 to-transparent"></div>
+                <div class="pointer-events-none absolute inset-y-0 right-0 z-10 w-24 bg-linear-to-l from-slate-950 via-slate-950/80 to-transparent"></div>
                 <div class="overflow-hidden">
                     <div class="skill-marquee" style="--skills-count: {{ max(1, $trackSkills->count()) }};">
                         <div class="skill-marquee-track">
